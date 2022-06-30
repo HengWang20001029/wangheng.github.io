@@ -1,0 +1,36 @@
+p{
+    color: brown;
+}
+.hi{
+    color: aqua;
+    font-size: 40px;
+    text-align: center;
+
+    line-height: 50px;
+   letter-spacing: 4px;
+}
+.hi:hover{
+    color: red;
+}
+.but_1:hover{
+    color: brown;
+}
+.loading{
+    width: 35px;
+    height: 35px;
+
+    border: 5px solid rgba(180,180,190,0.25);
+    border-left-color: aquamarine;
+    border-top-color: aquamarine;
+    border-radius: 50%;
+
+    animation: rotate 500ms infinite linear;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
